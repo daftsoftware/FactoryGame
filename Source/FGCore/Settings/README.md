@@ -1,0 +1,3 @@
+﻿# FG Settings
+
+Todo

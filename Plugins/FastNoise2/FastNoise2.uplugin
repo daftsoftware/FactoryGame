@@ -1,0 +1,21 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"FriendlyName" : "FastNoise2",
+	"Description" : "Auburn FastNoise2",
+	"Category" : "Gameplay",
+	"CreatedBy" : "Daft Software.",
+	"CreatedByURL" : "https://github.com/daftsoftware",
+	"EnabledByDefault" : true,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "FastNoise2",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default"
+		}
+	]
+}

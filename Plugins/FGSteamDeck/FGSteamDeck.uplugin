@@ -1,0 +1,27 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"FriendlyName" : "FGSteamDeck",
+	"Description" : "Factory Game Steam Deck Related Compatibility.",
+	"Category" : "Gameplay",
+	"CreatedBy" : "Daft Software.",
+	"CreatedByURL" : "https://github.com/daftsoftware",
+	"EnabledByDefault" : true,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "FGSteamDeck",
+			"Type" : "Runtime",
+			"LoadingPhase" : "EarliestPossible"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SteamShared",
+			"Enabled": true
+		}
+	]
+}

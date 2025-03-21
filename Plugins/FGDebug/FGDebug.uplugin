@@ -1,0 +1,27 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"FriendlyName" : "FGDebug",
+	"Description" : "Factory Game Debugger Library.",
+	"Category" : "Gameplay",
+	"CreatedBy" : "Daft Software.",
+	"CreatedByURL" : "https://github.com/daftsoftware",
+	"EnabledByDefault" : true,
+	"CanContainContent" : true,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "FGDebug",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+	]
+}

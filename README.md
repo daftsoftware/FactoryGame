@@ -30,7 +30,7 @@ Many many things in this project are extremely opinionated - to the point where 
 
 Some of the code here is quite fast due to having been aggressively optimized at the cost of readability. On the other hand, some of it runs underwhelmingly slow due to bad optimization techniques or algorithmic inferiority over better methods.
 
-Phyronnaz offers VoxelCore, which really is an amazing library, going back, if I were to do this again I would be heavily leveraging that library and it's optimizations. If you do decide to use the voxel component of this project, I recommend to upgrade lots of parts like the palette compression to use this instead of DIY solutions!
+Phyronnaz offers [VoxelCore](https://github.com/VoxelPlugin/VoxelCore), which really is an amazing library, going back, if I were to do this again I would be heavily leveraging that library and it's optimizations. If you do decide to use the voxel component of this project, I recommend to upgrade lots of parts like the palette compression to use this instead of DIY solutions!
 
 This project uses Mover. There has been a lot of API upgrades and some methods may be incompatible and it does not work properly with Iris, you need to disable Iris in order for the movement to work over the network.
 

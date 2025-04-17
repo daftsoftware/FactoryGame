@@ -84,3 +84,8 @@ ignore.conf
 .ignore
 .vscode/
 *.code-workspace
+
+!Plugins/FastNoise2/Binaries/Win64/
+!Plugins/FastNoise2/Binaries/Win64/FastNoise.dll
+!Plugins/FastNoise2/Binaries/Win64/FastNoiseD.dll
+!Plugins/FastNoise2/Binaries/Win64/FastNoiseD.pdb
